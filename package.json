@@ -1,0 +1,17 @@
+{
+  "name": "shopping_list_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "cd server && npm run start",
+    "start:client": "cd client && npm run start",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
